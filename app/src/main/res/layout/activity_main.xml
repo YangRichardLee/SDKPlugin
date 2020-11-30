@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:gravity="center"
+        android:onClick="startInit"
+        android:text="初始化"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:gravity="center"
+        android:onClick="startLogin"
+        android:text="快速登录"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:gravity="center"
+        android:onClick="showLoginView"
+        android:text="显示登录界面"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:gravity="center"
+        android:onClick="showFloatView"
+        android:text="显示悬浮窗"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>

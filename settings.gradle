@@ -1,0 +1,5 @@
+include ':platform'
+include ':sdkplugin'
+include ':pluginlibs'
+include ':app'
+rootProject.name = "LioNPluginDemo"
